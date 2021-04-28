@@ -9,9 +9,11 @@ public class Taller02UnitTesting {
         String archivo = "C:\\Users\\Asus\\Desktop\\cosas de progra\\taller2\\cadenas.txt";
         lecturaArchivo(archivo);
         ArrayList<String> interno = lecturaArchivo(archivo);
-        muestraDeLineas(interno);
+        //para print del contenido en la pantalla
+        // muestraDeLineas(interno);
+        System.out.println("la cantidad de lineas es " + interno.size());
+        contarPalindromos(interno);
     }
-
 
     private static ArrayList<String> lecturaArchivo(String archivo) {
         ArrayList<String> lineas = new ArrayList<>();
@@ -41,4 +43,10 @@ public class Taller02UnitTesting {
         }
         System.out.println("=======================");
     }
-}
+
+    private static void contarPalindromos(ArrayList<String> interno) {
+        for (int i = 0; i > interno.size() ; i++) {
+
+        }
+        }
+    }
